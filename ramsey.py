@@ -59,6 +59,8 @@ plt.plot(f,p3,label=r'$B_1=\pi/(2\gamma\tau)\times 0.9$')
 plt.axvline(f0,color='r')
 plt.axvline(f0+gamma*b1/2/pi,color='r',linestyle='--')
 plt.axvline(f0-gamma*b1/2/pi,color='r',linestyle='--')
+plt.xlabel('Frequency (Hz)')
+plt.ylabel('Probability to be found in the flipped state')
 plt.legend()
 plt.show()
 
